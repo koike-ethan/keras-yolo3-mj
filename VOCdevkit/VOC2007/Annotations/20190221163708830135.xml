@@ -21,7 +21,7 @@
     <name>7s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>20</xmin>
       <ymin>20</ymin>
@@ -33,7 +33,7 @@
     <name>9s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>52</xmin>
       <ymin>20</ymin>
@@ -45,7 +45,7 @@
     <name>3m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>84</xmin>
       <ymin>20</ymin>
@@ -57,7 +57,7 @@
     <name>9m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>116</xmin>
       <ymin>20</ymin>
@@ -69,7 +69,7 @@
     <name>4p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>148</xmin>
       <ymin>20</ymin>
@@ -81,7 +81,7 @@
     <name>1s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>180</xmin>
       <ymin>20</ymin>
@@ -93,7 +93,7 @@
     <name>5z</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>212</xmin>
       <ymin>20</ymin>
@@ -105,7 +105,7 @@
     <name>5s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>244</xmin>
       <ymin>20</ymin>
@@ -117,7 +117,7 @@
     <name>8m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>276</xmin>
       <ymin>20</ymin>
@@ -129,7 +129,7 @@
     <name>0s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>308</xmin>
       <ymin>20</ymin>
@@ -141,7 +141,7 @@
     <name>2m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>20</xmin>
       <ymin>68</ymin>
@@ -153,7 +153,7 @@
     <name>1p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>52</xmin>
       <ymin>68</ymin>
@@ -165,7 +165,7 @@
     <name>3z</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>84</xmin>
       <ymin>68</ymin>
@@ -177,7 +177,7 @@
     <name>1m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>116</xmin>
       <ymin>68</ymin>
@@ -189,7 +189,7 @@
     <name>6z</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>148</xmin>
       <ymin>68</ymin>
@@ -201,7 +201,7 @@
     <name>5m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>180</xmin>
       <ymin>68</ymin>
@@ -213,7 +213,7 @@
     <name>3s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>212</xmin>
       <ymin>68</ymin>
@@ -225,7 +225,7 @@
     <name>2p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>244</xmin>
       <ymin>68</ymin>
@@ -237,7 +237,7 @@
     <name>0m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>276</xmin>
       <ymin>68</ymin>
@@ -249,7 +249,7 @@
     <name>4m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>308</xmin>
       <ymin>68</ymin>
@@ -261,7 +261,7 @@
     <name>4s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>20</xmin>
       <ymin>116</ymin>
@@ -273,7 +273,7 @@
     <name>3p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>52</xmin>
       <ymin>116</ymin>
@@ -285,7 +285,7 @@
     <name>2s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>84</xmin>
       <ymin>116</ymin>
@@ -297,7 +297,7 @@
     <name>2z</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>116</xmin>
       <ymin>116</ymin>
@@ -309,7 +309,7 @@
     <name>6p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>148</xmin>
       <ymin>116</ymin>
@@ -321,7 +321,7 @@
     <name>6m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>180</xmin>
       <ymin>116</ymin>
@@ -333,7 +333,7 @@
     <name>7p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>212</xmin>
       <ymin>116</ymin>
@@ -345,7 +345,7 @@
     <name>0p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>244</xmin>
       <ymin>116</ymin>
@@ -357,7 +357,7 @@
     <name>9p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>276</xmin>
       <ymin>116</ymin>
@@ -369,7 +369,7 @@
     <name>6s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>308</xmin>
       <ymin>116</ymin>
@@ -381,7 +381,7 @@
     <name>8s</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>20</xmin>
       <ymin>164</ymin>
@@ -393,7 +393,7 @@
     <name>4z</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>52</xmin>
       <ymin>164</ymin>
@@ -405,7 +405,7 @@
     <name>5p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>84</xmin>
       <ymin>164</ymin>
@@ -417,7 +417,7 @@
     <name>7m</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>116</xmin>
       <ymin>164</ymin>
@@ -429,7 +429,7 @@
     <name>1z</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>148</xmin>
       <ymin>164</ymin>
@@ -441,7 +441,7 @@
     <name>7z</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>180</xmin>
       <ymin>164</ymin>
@@ -453,7 +453,7 @@
     <name>8p</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
-    <difficult>1</difficult>
+    <difficult>0</difficult>
     <bndbox>
       <xmin>212</xmin>
       <ymin>164</ymin>
