@@ -19,8 +19,8 @@ def display_cv_image(image, format='.png'):
 
 # 背景作成
 
-BOARD_W = 359
-BOARD_H = 223
+BOARD_W = 416
+BOARD_H = 416
 NUM_COLOR = 3
 
 boardimage = np.ones((BOARD_H, BOARD_W , NUM_COLOR), np.uint8)*100
@@ -105,16 +105,20 @@ def annotation3():
 
 
 # 牌画埋め込み
-YOHAKU = 20
+YOHAKU_TOP = 114
+YOHAKU_BOTTOM = 114
+YOHAKU_LEFT = 48
+YOHAKU_RIGHT = 49
 img = boardimage.copy()
 img_name = []
 for num in range(0,int(sys.argv[1])):
+#for num in range(0,2): # test
     img_random = random.sample(paigas, len(paigas))
     i = 0
     now = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
     xml = annotation1(now)
-    for h in range(YOHAKU, BOARD_H - YOHAKU + 1, PAIGA_H + 1):
-        for w in range(YOHAKU, BOARD_W - YOHAKU + 1, PAIGA_W + 1):
+    for h in range(YOHAKU_TOP, BOARD_H - YOHAKU_BOTTOM + 1, PAIGA_H + 1):
+        for w in range(YOHAKU_LEFT, BOARD_W - YOHAKU_RIGHT + 1, PAIGA_W + 1):
             img[h:h+PAIGA_H, w:w+PAIGA_W] = img_random[i][1]
             xmin, ymin, xmax, ymax = paipos(w,h)
             painame = img_random[i][0].replace('.png', '')
