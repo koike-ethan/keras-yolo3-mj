@@ -105,10 +105,15 @@ def annotation3():
 
 
 # 牌画埋め込み
+'''
 YOHAKU_TOP = 114
 YOHAKU_BOTTOM = 114
 YOHAKU_LEFT = 48
 YOHAKU_RIGHT = 49
+'''
+YOHAKU_H = 45
+YOHAKU_W = 9
+
 img = boardimage.copy()
 img_name = []
 for num in range(0,int(sys.argv[1])):
@@ -117,8 +122,12 @@ for num in range(0,int(sys.argv[1])):
     i = 0
     now = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
     xml = annotation1(now)
+    '''
     for h in range(YOHAKU_TOP, BOARD_H - YOHAKU_BOTTOM + 1, PAIGA_H + 1):
         for w in range(YOHAKU_LEFT, BOARD_W - YOHAKU_RIGHT + 1, PAIGA_W + 1):
+        '''
+    for h in range(YOHAKU_H, BOARD_H - YOHAKU_H + 1, PAIGA_H + YOHAKU_H):
+        for w in range(YOHAKU_W, BOARD_W - YOHAKU_W + 1, PAIGA_W + YOHAKU_W):
             img[h:h+PAIGA_H, w:w+PAIGA_W] = img_random[i][1]
             xmin, ymin, xmax, ymax = paipos(w,h)
             painame = img_random[i][0].replace('.png', '')
